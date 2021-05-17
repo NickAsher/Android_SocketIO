@@ -60,6 +60,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/activityMain_LnLt_ChatContainer"
             android:orientation="vertical"
+
             >
 
             <TextView
@@ -143,11 +144,13 @@
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:id="@+id/activityMain_Btn_SendMsg"
             android:layout_weight="1"
             android:background="@color/colorPrimary"
             android:src="@drawable/ic_send2"
             android:scaleType="fitCenter"
             android:padding="4dp"
+            android:onClick="onSentClicked"
             />
 
 
